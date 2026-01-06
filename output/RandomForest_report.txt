@@ -1,0 +1,14 @@
+Model: RandomForest
+Accuracy: 0.9961
+Precision: 0.9975
+Recall: 0.9943
+False Positive Rate: 0.0023
+
+              precision    recall  f1-score   support
+
+           0     0.9948    0.9977    0.9962     15411
+           1     0.9975    0.9943    0.9959     14293
+
+    accuracy                         0.9961     29704
+   macro avg     0.9961    0.9960    0.9961     29704
+weighted avg     0.9961    0.9961    0.9961     29704

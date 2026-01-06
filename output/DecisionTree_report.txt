@@ -1,0 +1,14 @@
+Model: DecisionTree
+Accuracy: 0.9949
+Precision: 0.9943
+Recall: 0.9950
+False Positive Rate: 0.0053
+
+              precision    recall  f1-score   support
+
+           0     0.9954    0.9947    0.9951     15411
+           1     0.9943    0.9950    0.9947     14293
+
+    accuracy                         0.9949     29704
+   macro avg     0.9949    0.9949    0.9949     29704
+weighted avg     0.9949    0.9949    0.9949     29704
