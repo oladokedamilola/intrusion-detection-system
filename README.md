@@ -109,47 +109,6 @@ Based on Random Forest feature importance:
 8. **Urgent**: Number of urgent packets
 
 
-## 🚀 Installation & Setup
-
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-- 4GB RAM minimum (8GB recommended)
-
-### Installation Steps
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/oladokedamilola/intrusion-detection-system.git
-cd intrusion-detection-system
-```
-
-2. **Create virtual environment**
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-4. **Download NSL-KDD dataset**
-```bash
-# Place KDDTrain+.txt and KDDTest+.txt in data/nsl-kdd/
-# Or run the download script if provided
-```
-
-5. **Run the preprocessing pipeline**
-```bash
-python src/data_preprocessing.py
-```
-
-6. **Train and evaluate models**
-```bash
-python src/model_training.py
-```
 
 ### Dependencies (requirements.txt)
 ```txt
